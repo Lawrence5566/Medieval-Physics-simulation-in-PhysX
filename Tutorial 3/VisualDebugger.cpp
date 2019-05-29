@@ -127,14 +127,16 @@ namespace VisualDebugger
 		hud.AddLine(HELP, "");
 		hud.AddLine(HELP, " Force (applied to the selected actor)");
 		hud.AddLine(HELP, "    I,K,J,L,U,M - forward,backward,left,right,up,down");
-		hud.AddLine(HELP, "    C to fire catapult, R to reload, T,F,G,H to move");
+		hud.AddLine(HELP, "");
+		hud.AddLine(HELP, " Catapult ");
+		hud.AddLine(HELP, "    C to fire catapult,  R to reload,  T,F,G,H to move");
 		//add a pause screen
 		hud.AddLine(PAUSE, "");
 		hud.AddLine(PAUSE, "");
 		hud.AddLine(PAUSE, "");
 		hud.AddLine(PAUSE, "   Simulation paused. Press F10 to continue.");
 		//set font size for all screens
-		hud.FontSize(0.018f);
+		hud.FontSize(0.016f);
 		//set font color for all screens
 		hud.Color(PxVec3(0.f,0.f,0.f));
 	}
