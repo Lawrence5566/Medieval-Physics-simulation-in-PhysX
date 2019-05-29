@@ -13,9 +13,7 @@ The brief for this project was loose; implement elements that would be in a medi
 
 Circles, cylinders and ellipsoid like shapes are not inherent in PhysX like cubes and spheres are, so I had to get creative with convex hulls to make the cylinders for the wheels on my catapult and the poles for the goal posts. Even more challenging was the rugby ball, where I wrote a function to generate and connect each vertex on the ball, so the rugby ball could be generated with varying numbers of segments (increased segments meant more detailed ball) in a realistic ellipsoid shape.
 
-Once my catapult was setup with joints, stoppers, connected masses etc. I needed to create rugby posts that could check for collisions when the ball flew pass them
-
-Again, invisible collision boxes where not provided, so I wrote my own code to generate the geometry of the box, without rendering the visuals.
+Once the catapult was setup with joints, stoppers, connected masses etc. I needed to create rugby posts that could check for collisions when the ball flew pass them. Again, invisible collision boxes where not provided, so I wrote my own code to generate the geometry of the box, without rendering the visuals.
 
 uses PhysX SDK 3.3.4
 includes visual debugger
