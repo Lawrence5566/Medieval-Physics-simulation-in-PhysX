@@ -1,13 +1,13 @@
 # Medieval Physics simulation in PhysX using C++
 
 key features:
-+Custom Actors (CustomActors.h)
-+Ellipsoid convex mesh creation
-+Cylinder convex mesh creation
-+Prismatic Joints for moving obstacles 
-+Connected dynamic actors and joints
-+Pure force and physics based object movement (catapult moves by wheels turning and experiencing friction)
-+Invisible collision boxes
+- Custom Actors (CustomActors.h)
+- Ellipsoid convex mesh creation
+- Cylinder convex mesh creation
+- Prismatic Joints for moving obstacles 
+- Connected dynamic actors and joints
+- Pure force and physics based object movement (catapult moves by wheels turning and experiencing friction)
+- Invisible collision boxes
 
 The brief for this project was loose; implement elements that would be in a medieval fantasy and rugby game/simulator hybrid. For this project, I wanted to simulate the actions of a catapult firing a rugby ball, the catapult moving and experiencing realistic forces (friction etc), realistic looking goal posts (cylinders not cuboids) and have goals that were actually score-able (collision detection).
 
